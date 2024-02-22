@@ -12,7 +12,7 @@
 - Python
 - Tensorflow
 
-  ### Observability/Logging
-  - Grafana
-  - AWS Blockchain services
+### Observability/Logging
+- Grafana
+- AWS Blockchain services
   
