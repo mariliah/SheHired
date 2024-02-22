@@ -1,3 +1,18 @@
 # SheHired
 
-just creating the repo, it's private, and we can change the name of it later or create another one.
+## Tech Stack
+
+### Front-end
+- React
+- HTML/CSS
+- MaterialUI (maybe)
+
+### Back-end
+- C++
+- Python
+- Tensorflow
+
+  ### Observability/Logging
+  - Grafana
+  - AWS Blockchain services
+  
