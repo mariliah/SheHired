@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Sandra's Portfolio Website">
+<meta name="keywords" content="web, portfolio, data science, software development, web development">
+<meta name="author" content="Sandra Campuzano">
+
+        <title>Sandra Campuzano's Portfolio</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <script src="slideshow.js"></script>
+        <script async src="https://cse.google.com/cse.js?cx=f4964402c3a3e421a">
+</script>
+    </head>
+
+<body>
+
+    <div class="header">    
+    <h1>Sandra Campuzano</h1>
+        <h2>MSDS Grad Student | Software & Web Dev</h2>
+    </div>
+
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+  
+        <li class="dropdown">
+          <button class="dropdownbtn">About</button>
+          <div class="dropdown-content">
+            <a href="aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact Me</a>
+          </div>
+        </li>
+  
+        <li class="dropdown">
+          <button class="dropdownbtn">Projects</button>
+          <div class="dropdown-content">
+            <a
+              href="https://scampuzano7.github.io/interactivecharapf/"
+              target="_blank"
+              >Interactive Character Profiles</a
+            >
+            <a
+              href="https://currencyconverterapp-12c780db7ef6.herokuapp.com"
+              target="_blank"
+              >Currency Converter</a
+            >
+            <a href="index.html" target="_blank">Text Based RPG</a>
+            <a href="https://scampuzano7.github.io/calculatorapp/" target="_blank"
+              >Calculator</a
+            >
+            <a href="https://scampuzano7.github.io/weatherapp/" target="_blank"
+              >Weather App</a
+            >
+          </div>
+        </li>
+  
+        <div class="iconlinks">
+          <div class="linkspace">
+            <a href="https://github.com/scampuzano7" target="_blank"
+              ><img src="images/github.PNG"
+            /></a>
+          </div>
+          <div class="linkspace">
+            <a
+              href="https://www.linkedin.com/in/sandraicampuzano/"
+              target="_blank"
+              ><img src="images/linkedin.png"
+            /></a>
+          </div>
+          <div class="linkspace">
+            <a href="https://blinq.me/nKwpZrChVP0Q?bs=db" target="_blank"
+              ><img src="images/blinq.PNG"
+            /></a>
+          </div>
+        </div>
+      </ul>
+
+    <div class="sitecontainer">
+    <form action="https://getform.io/f/801ad605-8fc2-47b0-ba53-728093601bee" method="POST">
+
+        <label for="firstName">First Name</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Last Name</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="eMail">E-Mail</label><br>
+        <input type="text" id="eMail" name="eMail" required><br><br>
+        
+        <label for="shortMessage">Message</label><br>
+        <textarea id="shortMessage" name="shortMessage" required></textarea><br><br>
+
+        <input type="hidden" name="_gotcha" style="display:none !important">
+        
+        <button class="subbtn" type="submit">Submit</button>
+
+    </form>
+    </div>
+
+    <div class="footer">
+        Portfolio Site by Sandra Campuzano
+    </div>
+    <script> showDivs(slideIndex); </script>
+</body>
