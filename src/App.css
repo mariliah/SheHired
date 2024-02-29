@@ -1,0 +1,15 @@
+:root {
+  --slate: #36454f;
+  --crimson: #3a001e;
+  --amber: #f9b95e;
+  --cream: #f7e7ce;
+  --frosty-mist: #e2e8f0;
+  --teal: #324b4b;
+  --scarlet: #b10101;
+}
+
+.App {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
