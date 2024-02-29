@@ -12,7 +12,7 @@ export default function Home() {
               <button className="navButton">Sign Up</button>
             </li>
             <li className="navItem">
-              <button className="navButton">Sign In</button>
+              <button className="navButton active">Sign In</button>
             </li>
           </ul>
         </nav>
@@ -25,7 +25,7 @@ export default function Home() {
         </p>
         <section className="purposeButtons">
           <button className="purposeButton">Hire</button>
-          <button className="purposeButton">Work</button>
+          <button className="purposeButton active">Work</button>
         </section>
       </section>
     </section>
