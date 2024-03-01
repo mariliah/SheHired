@@ -2,8 +2,9 @@ from flask import Flask, render_template, request
 from flask_cors import CORS
 import logging
 import os, json
+import jsonify
 from datetime import datetime, timedelta, timezone
-from firebase import firebase
+import firebase
 from collections.abc import MutableMapping
 
 app = Flask(__name__, static_url_path='/static', static_folder='static')
@@ -21,19 +22,19 @@ config = {
     "serviceAccount": "path/to/serviceAccountCredentials.json"
 }
 
-firebase = firebase.FirebaseApplication('YOUR_FIREBASEIO_URL', None)
+#firebase = firebase.FirebaseApplication('YOUR_FIREBASEIO_URL', None)
 
 # use realtime database
-db = firebase.database()
+#db = firebase.database()
 
 #write data
-data = {"name": "John Doe", "email": "johndoe@example.com"}
-db.child("users").push(data)
+# data = {"name": "John Doe", "email": "johndoe@example.com"}
+# db.child("users").push(data)
 
 #read data
-users = db.child("users").get()
-for user in users.each():
-    print(user.val())
+# users = db.child("users").get()
+# for user in users.each():
+#     print(user.val())
 
 @app.route('/')
 def index():
@@ -46,6 +47,19 @@ def student():
         print(data)
         return "success"
     return "student"
+
+app.route('/recruiter/job_posting', methods=['POST'])
+def post_job():
+    job_title = request.json.get['job_title']
+    salary = request.json.get['salary']
+    location = request.json.get['location']
+    description = request.json.get['description']
+    job_type = request.json.get['job_type']
+    visa_sponsorship = request.json.get['visa_sponsorship']
+    skills = request.json.get['skills']
+    yoe = request.json.get['yoe']
+
+    return jsonify({'Message': 'Job posted successfully!'}), 201
 
 #If student assigns to the student class
 
