@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../logo.svg";
 
 export default function Home() {
@@ -9,7 +10,9 @@ export default function Home() {
           <img src={Logo} alt="brand logo" className="navbarLogo" />
           <ul className="navList">
             <li className="navItem">
-              <button className="navButton">Sign Up</button>
+              <button className="navButton">
+                <Link to="/signup">Sign Up</Link>
+              </button>
             </li>
             <li className="navItem">
               <button className="navButton active">Sign In</button>
