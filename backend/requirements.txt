@@ -1,0 +1,5 @@
+flask
+flask-cors
+
+python-firebase
+requests=2.31.0

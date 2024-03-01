@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request
 from flask_cors import CORS
 import logging
-import os
+import os, json
 from datetime import datetime, timedelta, timezone
-import pyrebase
+from firebase import firebase
+from collections.abc import MutableMapping
 
 app = Flask(__name__, static_url_path='/static', static_folder='static')
 CORS(app)
@@ -20,7 +21,7 @@ config = {
     "serviceAccount": "path/to/serviceAccountCredentials.json"
 }
 
-firebase = pyrebase.initialize_app(config)
+firebase = firebase.FirebaseApplication('YOUR_FIREBASEIO_URL', None)
 
 # use realtime database
 db = firebase.database()
@@ -37,6 +38,14 @@ for user in users.each():
 @app.route('/')
 def index():
     return "hello world"
+
+@app.route('/student', methods=['GET', 'POST'])
+def student():
+    if request.method == 'POST':
+        data = request.get_json()
+        print(data)
+        return "success"
+    return "student"
 
 #If student assigns to the student class
 
