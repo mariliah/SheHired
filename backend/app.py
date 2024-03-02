@@ -15,13 +15,13 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # configuration of firebase
-config = {
-    "apiKey": "apiKey",
-    "authDomain": "projectId.firebaseapp.com",
-    "databaseURL": "https://databaseName.firebaseio.com",
-    "storageBucket": "projectId.appspot.com",
-    "serviceAccount": "path/to/serviceAccountCredentials.json"
-}
+# config = {
+#     "apiKey": "apiKey",
+#     "authDomain": "projectId.firebaseapp.com",
+#     "databaseURL": "https://databaseName.firebaseio.com",
+#     "storageBucket": "projectId.appspot.com",
+#     "serviceAccount": "path/to/serviceAccountCredentials.json"
+# }
 
 #firebase = firebase.FirebaseApplication('YOUR_FIREBASEIO_URL', None)
 
