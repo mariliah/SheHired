@@ -4,41 +4,65 @@ import brandImg from "../../images/joel-muniz-HvZDCuRnSaY-unsplash 1.png";
 
 export default function Signup() {
   return (
-    <section>
-      <img src={Logo} alt="" className="reg-logo" />
-      <section className="signupBody">
-        <img src={brandImg} alt="brand logo" className="signupLogo" />
+    <section className="w-full h-auto block bg-cream font-poppins">
+      <img src={Logo} alt="" className="float-right" />
+      <section className="flex justify-around items-start">
+        <img
+          src={brandImg}
+          className="w-1/2 relative left-0"
+          alt="brand logo"
+        />
 
-        <section className="md:block">
-          <h1>CREATE A NEW ACCOUNT</h1>
-          ENTER YOUR DETAILS TO REGISTER
-          <form action="">
+        <section className="md:block py-20 font-poppins">
+          <h1 className="font-bold text-2xl">CREATE A NEW ACCOUNT</h1>
+          <p>ENTER YOUR DETAILS TO REGISTER</p>
+          <form className="flex flex-col mt-10" action="">
             <label htmlFor="name">NAME</label>
-            <input id="name" type="text" />
+            <input
+              id="name"
+              type="text"
+              className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey"
+              required
+            />
             <label htmlFor="email">EMAIL ADDRESS</label>
             <div className="mt-2">
               <input
                 id="email"
                 name="email"
                 type="email"
-                autocomplete="email"
+                className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey"
                 required
               />
             </div>
             <label htmlFor="password">PASSWORD</label>
-            <input id="password" type="password" />
+            <input
+              id="password"
+              type="password"
+              className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey"
+              required
+            />
+
+            <section className="flex items-center justify-center mt-9">
+              <input type="radio" name="utype" className="accent-crimson" />
+              <label htmlFor="utype" className="mx-4">
+                STUDENT
+              </label>
+              <input type="radio" name="utype" className="accent-crimson" />
+              <label htmlFor="utype" className="mx-4">
+                EARLY CAREER
+              </label>
+            </section>
+
+            <button className="bg-crimson text-frostyMist w-full h-12 rounded-2xl mt-10">
+              SIGN UP
+            </button>
           </form>
-          <section className="userType">
-            <input type="radio" name="utype" />
-            <label htmlFor="utype">STUDENT</label>
-            <input type="radio" name="utype" />
-            <label htmlFor="utype">EARLY CAREER</label>
-            <button>SIGN UP</button>
+          <p className="mt-10">
             ALREADY HAVE AN ACCOUNT?
-            <a href="www.example.com" className="loginLink">
+            <a href="www.example.com" className="font-bold">
               LOGIN HERE
             </a>
-          </section>
+          </p>
         </section>
       </section>
     </section>
