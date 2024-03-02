@@ -5,6 +5,7 @@ export default function Signup() {
   const brandImg = "../signup.png";
   return (
     <section className="w-full h-auto block bg-cream font-poppins">
+
       <img src={Logo} alt="logo of shehired" className="float-right" />
       <section className="flex justify-around items-start">
       <img
