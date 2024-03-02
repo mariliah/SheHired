@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request
-from flask_cors import CORS
+from flask_cors import CORS, cors_origin
 import logging
 import os, json
 import jsonify
 from datetime import datetime, timedelta, timezone
-import firebase
-from collections.abc import MutableMapping
+import firebase_admin
+from firebase_admin import credentials, firestore
+import uuid
 
 app = Flask(__name__, static_url_path='/static', static_folder='static')
 CORS(app)
@@ -35,6 +36,11 @@ config = {
 # users = db.child("users").get()
 # for user in users.each():
 #     print(user.val())
+
+cred = credentials.Certificate('path/to/serviceAccountKey.json')
+firebase_admin.initialize_app(cred)
+
+db = firestore.client()
 
 @app.route('/')
 def index():
