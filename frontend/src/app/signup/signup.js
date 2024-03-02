@@ -1,16 +1,17 @@
 import React from "react";
 import Logo from "../../logo.svg";
-import brandImg from "../../images/joel-muniz-HvZDCuRnSaY-unsplash 1.png";
 
 export default function Signup() {
+  const brandImg = "../signup.png";
   return (
     <section className="w-full h-auto block bg-cream font-poppins">
-      <img src={Logo} alt="" className="float-right" />
+
+      <img src={Logo} alt="logo of shehired" className="float-right" />
       <section className="flex justify-around items-start">
-        <img
-          src={brandImg}
-          className="w-1/2 relative left-0"
-          alt="brand logo"
+      <img
+                src={brandImg}
+                className="w-1/2 relative left-0"
+                alt="biopc women enjoying together"
         />
 
         <section className="md:block py-20 font-poppins">
