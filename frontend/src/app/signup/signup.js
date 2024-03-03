@@ -1,20 +1,26 @@
 import React from "react";
-import Logo from "../../logo.svg";
 
 export default function Signup() {
+  const logo = "../logo.png";
   const brandImg = "../signup.png";
-  return (
-    <section className="w-full h-auto block bg-cream font-poppins">
 
-      <img src={Logo} alt="logo of shehired" className="float-right" />
+  return (
+    <section className="w-auto h-screen block bg-cream font-poppins">
+      {/*need improvision to adjust logo /*}
+      
+      {/* <img
+        src={logo}
+        alt="logo of shehired"
+        className="w-1/4  md:w-1/6 absolute top-0 right-0"
+  /> */}
       <section className="flex justify-around items-start">
-      <img
-                src={brandImg}
-                className="w-1/2 relative left-0"
-                alt="biopc women enjoying together"
+        <img
+          src={brandImg}
+          className="w-3/4 md:w-1/2 h-screen object-cover"
+          alt="biopc women enjoying together"
         />
 
-        <section className="md:block py-20 font-poppins">
+        <section className="w-1/2 md:block py-20 font-poppins mx-12">
           <h1 className="font-bold text-2xl">CREATE A NEW ACCOUNT</h1>
           <p>ENTER YOUR DETAILS TO REGISTER</p>
           <form className="flex flex-col mt-10" action="">
@@ -22,7 +28,7 @@ export default function Signup() {
             <input
               id="name"
               type="text"
-              className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey"
+              className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey focus:bg-white"
               required
             />
             <label htmlFor="email">EMAIL ADDRESS</label>
@@ -31,7 +37,7 @@ export default function Signup() {
                 id="email"
                 name="email"
                 type="email"
-                className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey"
+                className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey focus:bg-white"
                 required
               />
             </div>
@@ -39,7 +45,7 @@ export default function Signup() {
             <input
               id="password"
               type="password"
-              className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey"
+              className="w-full bg-cream rounded-2xl px-2 py-3 border-solid border-2 border-grey focus:bg-white"
               required
             />
 
@@ -58,7 +64,7 @@ export default function Signup() {
               SIGN UP
             </button>
           </form>
-          <p className="mt-10">
+          <p className="text-center mt-10">
             ALREADY HAVE AN ACCOUNT?
             <a href="www.example.com" className="font-bold">
               LOGIN HERE
