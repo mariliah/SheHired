@@ -15,7 +15,7 @@ export default function Home() {
           <ul className="w-3/20 flex justify-evenly items-center px-4 py-0 absolute right-16">
             <li className="mx-6">
               <button className="w-24 h-11 rounded-3xl text-crimson bg-cream font-bold hover:bg-crimson hover:text-frostyMist">
-                <Link to="/signup">Sign Up</Link>
+                <Link to="/Signup">Sign Up</Link>
               </button>
             </li>
             <li className="mx-6">
@@ -36,10 +36,10 @@ export default function Home() {
         </p>
         <section className="flex justify-evenly items-center w-1/2 mx-auto relative top-28">
           <button className="w-56 h-16 rounded-lg text-2xl text-crimson border-2 border-solid border-crimson hover:bg-crimson hover:text-frostyMist">
-            Hire
+          <Link to="/recruiter_signup"> Hire </Link>
           </button>
           <button className="w-56 h-16 rounded-lg text-2xl text-frostyMist border-2 border-solid border-crimson bg-crimson hover:bg-crimson hover:text-frostyMist">
-            Work
+          <Link to="/Signup"> Work </Link>
           </button>
         </section>
       </section>
