@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
+import Logo from '../../logo.svg';
 
 export default function Signup() {
   const logo = "../logo.png";
   const brandImg = "../signup.png";
 
   return (
+
     <section className="w-auto h-screen block bg-cream font-poppins">
       {/*need improvision to adjust logo /*}
       
