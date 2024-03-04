@@ -4,3 +4,5 @@ flask-cors
 python-firebase
 firebase
 requests=2.31.0
+
+web3
