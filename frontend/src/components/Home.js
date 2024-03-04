@@ -1,17 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Logo from "../logo.svg";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Logo from '../images/logo.png';
 
 export default function Home() {
   return (
     <section className='homepage'>
       <header>
-        <nav className="navbar">
-          <img src={Logo} alt="brand logo" className="navbarLogo" />
-          <ul className="navList">
-            <li className="navItem">
-              <button className="navButton">
-                <Link to="/signup">Sign Up</Link>
+        <nav className='navbar'>
+          <img src={Logo} alt='brand logo' className='navbarLogo' />
+          <ul className='navList'>
+            <li className='navItem'>
+              <button className='navButton'>
+                <Link to='/signup'>Sign Up</Link>
               </button>
             </li>
             <li className='navItem'>

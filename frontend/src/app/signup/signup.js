@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../logo.svg';
+import Logo from '../../images/logo.png';
 import brandImg from '../../images/signup.png';
 
 export default function Signup() {

@@ -1,22 +1,35 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Poppins", "Montserrat", "sans-serif"],
+        poppins: ['Poppins', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+      fontWeight: {
+        extralight: 200,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
+      },
+      borderRadius: {
+        10: '10px',
       },
       colors: {
-        slate: "#36454f",
-        crimson: "#3a001e",
-        amber: "#f9b95e",
-        cream: "#f7e7ce",
-        frostyMist: "#e2e8f0",
-        teal: "#324b4b",
-        scarlet: "#b10101",
+        slate: '#36454f',
+        crimson: '#3a001e',
+        amber: '#f9b95e',
+        cream: '#FDFAF5',
+        frostyMist: '#e2e8f0',
+        teal: '#324b4b',
+        scarlet: '#b10101',
+        'input-border': '#D9D9D9',
       },
       backgroundImage: {
-        "brand-logo":
+        'brand-logo':
           "url('/src/images/joel-muniz-HvZDCuRnSaY-unsplash 1.png')",
       },
     },
