@@ -27,7 +27,7 @@ module.exports = {
         slate: '#36454f',
         crimson: '#3a001e',
         amber: '#f9b95e',
-        cream: '#f7e7ce',
+        cream: '#FDFAF5',
         frostyMist: '#e2e8f0',
         teal: '#324b4b',
         scarlet: '#b10101',
