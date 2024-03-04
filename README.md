@@ -5,6 +5,7 @@
 ### Front-end
 - React
 - HTML/CSS
+- Tailwind CSS
 - MaterialUI (maybe)
 
 ### Back-end
