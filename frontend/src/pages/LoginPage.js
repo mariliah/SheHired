@@ -1,18 +1,16 @@
 import React from 'react';
 import CustomizablePhoto from '../components/common/CustomizablePhoto';
 import LoginFormContainer from '../components/login/LoginFormContainer';
-import '../styles/login.module.css';
+import photo from '../images/login.jpg';
 
 function LoginPage() {
-  const photo = '../login.jpg';
-
   return (
     <>
-      <main className='grid'>
-        <section>
+      <main className='bg-cream font-poppins h-screen flex items-center justify-center'>
+        <section className='flex-1 flex justify-center items-center'>
           <LoginFormContainer />
         </section>
-        <section>
+        <section className='flex-1'>
           <CustomizablePhoto src={photo} alt='login' />
         </section>
       </main>
