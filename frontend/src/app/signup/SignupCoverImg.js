@@ -7,7 +7,7 @@ export default function SignupCoverImg(){
     return(
         <img
           src={brandImg}
-          className="w-3/4 md:w-1/2 h-auto object-cover"
+          className="w-full h-screen object-cover"
           alt="biopc women enjoying together"
         />
     )
