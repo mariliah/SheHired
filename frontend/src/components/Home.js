@@ -20,7 +20,7 @@ export default function Home() {
             </li>
             <li className='mx-6'>
               <button className='w-24 h-11 rounded-3xl  text-frostyMist font-bold bg-crimson hover:bg-crimson hover:text-frostyMist'>
-                Sign In
+                <Link to='/loginpage'>Log In</Link>
               </button>
             </li>
           </ul>
