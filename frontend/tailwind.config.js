@@ -23,6 +23,10 @@ module.exports = {
       borderRadius: {
         10: '10px',
       },
+      spacing: {
+        600: '600px',
+        200: '200px',
+      },
       colors: {
         slate: '#36454f',
         crimson: '#3a001e',
