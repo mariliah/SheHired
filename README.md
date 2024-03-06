@@ -10,8 +10,19 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
 - [Overview](#overview)
   - [Preview](#preview)
   - [Links](#links)
+  - [Our Vision](#our-vision)
+  - [User Flow](user-flow)
+  - [Who We're Building For?](who-we're-building-for-?)
+  - [Our Mission](our-mission)
 - [Technical Aspects](#technical-aspects)
   - [Tools & Technologies](#tools-and-technologies)
+  - [Methodology](#methodology)
+  - [Architecture](#architecture)
+  - [Challenges and Bugs](#challenges-and-bugs)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Performance](#performance)
+  - [Security](#security)
 - [Future Aspects](#future-aspects)
 - [Team Members](#team-members)
 - [Acknowledgments](#acknowledgments)
@@ -41,6 +52,18 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
   ### Links
   
   - Live Site URL: [SHEHIRED]()
+
+  ### Our Vision 
+  Our vision is to provide a platform that connects women with inclusive companies offering diverse opportunities, we can empower women to overcome systemic barriers and achieve professional success. Our assumptions include the belief that companies are willing to prioritize diversity and inclusion initiatives and that women are actively seeking such opportunities.
+
+  ### User Flow
+<img width="7109" alt="SheHired User Journey" src="https://github.com/mariliah/SheHired/assets/49182604/0ebc286f-10b5-4180-952d-621573f82d22">
+
+  ### Who We're Building For ?
+  Our target audience consists of women from diverse backgrounds & colors seeking equal opportunities and inclusive workplaces. Proto-personas based on our research represent typical users, such as recent graduates, mid-career professionals, and senior executives, each with unique needs and preferences.
+
+  ### Our Mission
+  Our mission is to make a tangible impact on women's rights issues by facilitating access to inclusive job opportunities, promoting diversity and equity in the workplace, and fostering a supportive community for women to thrive professionally.
 
 ## Technical Aspects
 
