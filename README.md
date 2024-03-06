@@ -30,8 +30,12 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
 
 <table>
   <tr>
-    <td width="50%"></td>
-    <td width="50%"></td>
+    <td width="50%">
+      <img src="https://github.com/mariliah/SheHired/assets/49182604/9012b7ce-6074-4413-a4c4-003e9448d4fb" >
+    </td>
+    <td width="50%">
+      <img src="https://github.com/mariliah/SheHired/assets/49182604/0c8928f7-6787-4418-bab3-5ef3c892eb7d" >
+    </td>
   </tr>
 </table>
 
