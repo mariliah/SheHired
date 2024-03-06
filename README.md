@@ -20,7 +20,8 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
 
 ## Overview
 
-<p align="center"><img src="/frontend/src/images/logo1.png" alt="SheHired Logo" width="400" height="250"></p>
+<p align="center"><img src="https://github.com/mariliah/SheHired/assets/49182604/0ce758b0-a898-4080-9844-da07686494ce" alt="SheHired Logo" width="400" height="250"></p>
+
 
 **_SHEHIRED_** is more than just a platform; it's a movement toward equality and diversity. It provides women of all backgrounds, as well as their allies, with access to a wide range of opportunities. We believe in breaking down barriers and creating pathways to success, regardless of educational background. With verified companies offering visa sponsorships, pay equity, and transparent job descriptions, SHEHIRED is where talent meets opportunity. Join us in creating a future where every woman can thrive!
 
@@ -57,14 +58,42 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
 
   - **Observability/Logging**
     - ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-    - ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) Blockchain services
+    - ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) ![Blockchain services](https://img.shields.io/badge/Blockchain.com-121D33?logo=blockchaindotcom&logoColor=fff&style=for-the-badge)
+### Methodology
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### Architecture
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### Challenges and Bugs
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### Testing
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### Deployment
+
+We deployed our project using a combination of cloud services, including AWS and Firebase.
+
+### Performance
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+### Security
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
 
 ## Future Aspects
 
 In future iterations, we plan to focus on the following areas:
 
+- Enhancing user engagement and support through a dedicated community forum.
 - Incorporating user testimonials to enhance credibility and user engagement.
-- Implementing additional features to improve user experience and functionality.
+- Implementing an immutable database to ensure transparency and integrity of companies' diversity data.
+- Offering comprehensive training and mentorship opportunities to empower job seekers and enhance their skill sets.
 - Enhancing observability and logging capabilities for better monitoring and troubleshooting.
 
 ## Team Members
