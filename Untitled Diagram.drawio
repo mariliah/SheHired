@@ -1,4 +1,4 @@
-<mxfile modified="2024-03-06T22:50:45.285Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="iV39S5B0v7QMVgnnANCE" version="24.0.1" type="github" pages="3">
+<mxfile modified="2024-03-06T23:05:27.360Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ftKRtbxNtAuBYY5NLjk-" version="24.0.1" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Logical App">
     <mxGraphModel dx="1205" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -216,6 +216,27 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WIgu98M2_G1uMhrcAJik-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="810" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="edXo4r1hPKGkeItHsbSl-1" value="&lt;font color=&quot;#330033&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Application&lt;/b&gt; /backend&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WIgu98M2_G1uMhrcAJik-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="730" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="edXo4r1hPKGkeItHsbSl-5" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#FFFFFF;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="220" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="edXo4r1hPKGkeItHsbSl-6" value="&lt;font color=&quot;#330033&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Services&lt;/b&gt; /services&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="125" y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edXo4r1hPKGkeItHsbSl-7" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#FFFFFF;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="370" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="edXo4r1hPKGkeItHsbSl-8" value="&lt;font color=&quot;#330033&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Routes&lt;/b&gt; /app.py&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
