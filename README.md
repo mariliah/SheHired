@@ -96,10 +96,6 @@ Some of the challenges encountered were choosing the best technology stack for t
 For the backend we had originally planned to create the REST APIs using C++, but opted for Python using the Flask framework for ease of use, and to reduce complexity/research to project. Exploring how to create decentralized applications, and interact with blockchain in C++ is something that we will explore in the future.
 
 
-### Testing
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 ### Deployment
 
 We deployed our project using a combination of cloud services, including AWS and Firebase.
