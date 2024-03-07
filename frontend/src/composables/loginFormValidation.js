@@ -1,5 +1,5 @@
 function emailValidator(email) {
-  var regxEmail = /^([a-zA-Z0-9\._]+)@([a-zA-Z])+.([a-zA-Z]+)(\.[a-zA-Z]+)?$/;
+  var regxEmail = /^([a-zA-Z0-9\\._]+)@([a-zA-Z])+.([a-zA-Z]+)(\.[a-zA-Z]+)?$/;
 
   return regxEmail.test(email) ? true : 'Please enter a valid email';
 }

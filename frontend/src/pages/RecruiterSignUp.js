@@ -3,11 +3,11 @@ import RecruiterCoverImg from "../app/signup/recruiterCoverImg";
 import RecruiterSignupForm from "../app/signup/recruiterSignupForm";
 
 export default function Signup(){
-    const logo = "../logo.png";
+    //const logo = "../logo.png";
     
 
     return(
-        <>
+        <section>
            {/* <img
             src={logo}
             alt="logo of shehired"
@@ -21,6 +21,6 @@ export default function Signup(){
                 <RecruiterSignupForm />
                 </section>
             </section>
-        </>
+        </section>
     )
 }

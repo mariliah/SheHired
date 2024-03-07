@@ -5,7 +5,7 @@ export default function Home() {
   const logo = '../logo.png';
   return (
     <section className="w-full h-screen bg-cream bg-cover bg-hero font-poppins">
-      <div class="w-full h-screen backdrop-brightness-90">
+      <div className="w-full h-screen backdrop-brightness-90">
       <header>
         <nav className='flex justify-between items-center relative top-12'>
           <img
