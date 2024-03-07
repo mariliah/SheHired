@@ -36,6 +36,12 @@ module.exports = {
         white: '#FFFFFF',
         black: '#000000',
       },
+      backgroundImage: {
+        'hero': "url('./images/login.jpg')",
+      },
+      backdropBrightness: {
+        90: ".9",
+      },
     },
   },
   plugins: [],

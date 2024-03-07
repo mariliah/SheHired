@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   const logo = '../logo.png';
   return (
-    <section className='w-full h-screen bg-cream font-poppins'>
+    <section className="w-full h-screen bg-cream bg-cover bg-hero font-poppins">
+      <div class="w-full h-screen backdrop-brightness-90">
       <header>
         <nav className='flex justify-between items-center relative top-12'>
           <img
@@ -28,14 +29,14 @@ export default function Home() {
       </header>
 
       <section className='w-full h-auto text-center relative top-44'>
-        <h1 className='text-5xl font-bold text-slate'>
+        <h1 className='text-5xl font-bold text-crimson drop-shadow-lg'>
           Where Women Thrive Professionally
         </h1>
-        <p className='font-montserrat text-2xl mt-4 text-slate'>
-          Access Diversity Equity Transparency: Your Inclusive Path Starts Here
+        <p className='font-montserrat drop-shadow-[0_35px_35px_rgba(0, 0, 0, 0)] font-bold text-2xl mt-4 text-slate'>
+         Your Inclusive Path Starts Here
         </p>
         <section className='flex justify-evenly items-center w-1/2 mx-auto relative top-28'>
-          <button className='w-56 h-16 rounded-lg text-2xl text-crimson border-2 border-solid border-crimson hover:bg-crimson hover:text-frostyMist'>
+          <button className='w-56 h-16 drop-shadow-lg rounded-lg text-2xl text-crimson font-bold border-2 border-solid border-crimson hover:bg-crimson hover:text-frostyMist'>
             <Link to='/recruiter_signup'> Hire </Link>
           </button>
           <button className='w-56 h-16 rounded-lg text-2xl text-frostyMist border-2 border-solid border-crimson bg-crimson hover:bg-crimson hover:text-frostyMist'>
@@ -43,6 +44,7 @@ export default function Home() {
           </button>
         </section>
       </section>
+      </div>
     </section>
   );
 }
