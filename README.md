@@ -83,16 +83,13 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
     - ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
     - ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
     - ![Blockchain services](https://img.shields.io/badge/Blockchain.com-121D33?logo=blockchaindotcom&logoColor=fff&style=for-the-badge)
-### Methodology
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-### Architecture
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+   
+      
 ### Challenges and Bugs
+Some of the challenges encountered were choosing the best technology stack for the application. Our team was not too familiar with blockchain, and how to create decentralized applications. We toyed with the idea of using Hyperledger, but ultimately chose Ethereum as there is more support and documentation, and ease of integration.<br>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For the backend we had originally planned to create the REST APIs using C++, but opted for Python using the Flask framework for ease of use, and to reduce complexity/research to project. Exploring how to create decentralized applications, and interact with blockchain in C++ is something that we will explore in the future.
+
 
 ### Testing
 
@@ -103,11 +100,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 We deployed our project using a combination of cloud services, including AWS and Firebase.
 
 ### Performance
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For performance we are focusing on using Firebase and Google Analytics to ensure optimal user experience.
 
 ### Security
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For security we have chosen to centralize our monitoring and logging using various AWS Services:
+- AWS CloudWatch
+- CloudTrail
+- Organizations
 
 
 ## Future Aspects
