@@ -31,7 +31,7 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
 
 ## Overview
 
-<p align="center"><img src="https://github.com/mariliah/SheHired/assets/49182604/8bb5967d-fc66-492c-801f-c011bc37c04a" alt="SheHired Logo" width="400" height="250"></p>
+<p align="center"><img src="https://github.com/mariliah/SheHired/assets/49182604/8bb5967d-fc66-492c-801f-c011bc37c04a" alt="SheHired Logo"></p>
 
 **_SHEHIRED_** is more than just a platform; it's a movement toward equality and diversity. It provides women of all backgrounds, as well as their allies, with access to a wide range of opportunities. We believe in breaking down barriers and creating pathways to success, regardless of educational background. With verified companies offering visa sponsorships, pay equity, and transparent job descriptions, SHEHIRED is where talent meets opportunity. Join us in creating a future where every woman can thrive!
 
