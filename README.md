@@ -31,8 +31,7 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
 
 ## Overview
 
-<p align="center"><img src="https://github.com/mariliah/SheHired/assets/49182604/0ce758b0-a898-4080-9844-da07686494ce" alt="SheHired Logo" width="400" height="250"></p>
-
+<p align="center"><img src="https://github.com/mariliah/SheHired/assets/49182604/8bb5967d-fc66-492c-801f-c011bc37c04a" alt="SheHired Logo" width="400" height="250"></p>
 
 **_SHEHIRED_** is more than just a platform; it's a movement toward equality and diversity. It provides women of all backgrounds, as well as their allies, with access to a wide range of opportunities. We believe in breaking down barriers and creating pathways to success, regardless of educational background. With verified companies offering visa sponsorships, pay equity, and transparent job descriptions, SHEHIRED is where talent meets opportunity. Join us in creating a future where every woman can thrive!
 
@@ -40,11 +39,17 @@ This repository contains the solution for the [Buildathon](https://www.baddiesin
 
   <table>
     <tr>
-      <td width="50%">
-        <img src="https://github.com/mariliah/SheHired/assets/49182604/9012b7ce-6074-4413-a4c4-003e9448d4fb" >
+      <td width="33%">
+        <img src="https://github.com/mariliah/SheHired/assets/49182604/a14e30f3-ed62-4f70-8358-70a71639dbe2" alt="Landing Page">
+        <p align="center">Landing Page</p>
       </td>
-      <td width="50%">
-        <img src="https://github.com/mariliah/SheHired/assets/49182604/0c8928f7-6787-4418-bab3-5ef3c892eb7d" >
+      <td width="33%">
+        <img src="https://github.com/mariliah/SheHired/assets/49182604/9012b7ce-6074-4413-a4c4-003e9448d4fb" alt="Candidate Dashboard">
+        <p align="center">Candidate Dashboard</p>
+      </td>
+      <td width="33%">
+        <img src="https://github.com/mariliah/SheHired/assets/49182604/0c8928f7-6787-4418-bab3-5ef3c892eb7d" alt="Recruiter Dashboard">
+        <p align="center">Recruiter Dashboard</p>
       </td>
     </tr>
   </table>
