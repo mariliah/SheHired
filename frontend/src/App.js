@@ -4,6 +4,8 @@ import Home from './components/Home';
 import Signup from './pages/Signup';
 import RecruiterSignup from './pages/RecruiterSignUp';
 import Login from './pages/LoginPage';
+import JobBoard from './pages/jobboard';
+
 function App() {
   return (
     <div className='App'>
@@ -13,6 +15,7 @@ function App() {
           <Route path='/signup' element={<Signup />} />
           <Route path='recruiter_signup' element={<RecruiterSignup />} />
           <Route path='/LoginPage' element={<Login />} />
+          <Route path='/jobboard' element={<JobBoard />} />
         </Routes>
       </Router>
     </div>
