@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+import "./App.css";
+import Home from "./components/Home";
+function App() {
+  return (
+    <div className="App">
+      <Home />
+=======
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Home from './components/Home';
@@ -15,6 +23,7 @@ function App() {
           <Route path='/LoginPage' element={<Login />} />
         </Routes>
       </Router>
+>>>>>>> 2a3d0bd4dadd8d5d8ce09610f39f6f09d1843fa6
     </div>
   );
 }
